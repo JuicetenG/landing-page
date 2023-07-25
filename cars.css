@@ -38,7 +38,7 @@ a {
 .left-side {
     color: #f9faf8;
     font-size: 24px;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 .right-side, a {
@@ -50,6 +50,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+ 
     background-color: #1f2937;
     height: 380px;
 } 
@@ -60,7 +61,7 @@ a {
 
 .heading {
     font-size: 48px;
-    font-weight: bold;
+    font-weight: bolder;
     color: #f9faf8;
 }
 
@@ -75,13 +76,14 @@ a {
     color: #f9faf8;
     padding: 4px 24px;
     border: none;
-    font-weight: bold;
+    font-weight: bolder;
     border-radius: 4px;
 }
 
 .car-show-image {
-    width: 300px;
-   
+    max-width: 30%;
+    height: auto;
+    min-width: 225px;
 }
 
 .header-hero {
@@ -94,4 +96,38 @@ a {
     justify-content: center;
     align-items: center;
     padding: 5px;
+}
+
+.card-container {
+    text-align: center;
+}
+
+.image-section-header {
+    font-size: 36px;
+    font-weight: bolder;
+    padding-top: 50px;
+}
+
+.image-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 330px;
+    gap: 50px;
+    background-color: white;
+}
+
+.card-text{
+    color:#1f2937
+}
+
+.card-image {
+    height: 150px;
+    width: 200px;
+    object-fit: scale-down;
+}
+
+.card {
+    max-width: 200px;
 }
