@@ -32,7 +32,7 @@ a {
     justify-content: space-between;
     align-items: center;
     background-color: #1f2937;
-    padding: 16px;
+    padding: 16px 0;
 }
 
 .left-side {
@@ -48,18 +48,17 @@ a {
 
 .container-one {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     background-color: #1f2937;
     height: 380px;
-    gap: 50px;
-}
+} 
 
 .sign-up {
-    width: 400px;
+    width: 500px;
 }
 
-.heading{
+.heading {
     font-size: 48px;
     font-weight: bold;
     color: #f9faf8;
@@ -85,7 +84,12 @@ a {
    
 }
 
-.footer{
+.header-hero {
+    background-color: #1f2937;
+    padding: 0 200px;
+}
+
+.footer {
     display: flex;
     justify-content: center;
     align-items: center;
